@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="en">
+<html class="theme-next pisces use-motion" lang="en">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -98,7 +98,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Pisces',
     version: '5.1.4',
     sidebar: {"position":"right","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -200,6 +200,16 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-movies">
+          <a href="/movies%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-film"></i> <br />
+            
+            movies
+          </a>
+        </li>
+      
 
       
     </ul>
@@ -238,7 +248,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Chengshuai Yang">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/me1.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -520,6 +530,10 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image"
+                src="/images/me1.jpg"
+                alt="Chengshuai Yang" />
+            
               <p class="site-author-name" itemprop="name">Chengshuai Yang</p>
               <p class="site-description motion-element" itemprop="description">With malice toward none, with charity for all, with firmness in the right</p>
           </div>
@@ -640,7 +654,7 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
 
 
 
@@ -747,6 +761,13 @@
   
   
 
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
@@ -814,5 +835,7 @@
 
   
 
+  <!-- 页面点击小红心 -->
+  <script type="text/javascript" src="/js/src/love.js"></script>
 </body>
 </html>
