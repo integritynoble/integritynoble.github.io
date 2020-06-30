@@ -46,9 +46,9 @@
       return e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function (e) {
         setTimeout(e, 1e3 / 60)
       }
-    }(), n()
+    }(), n()    
   }(window, document);
-  (function() {
+(function() {
     
     var T_color = "";//字体颜色,你不设置就是随机颜色,
     
