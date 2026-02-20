@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.2">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-nexty.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-nexty.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="PWM – Physics World Model for Imaging System Autonomy PWM is an open, reproducible evaluation harness and toolkit for computational imaging that aims to make any imaging system self-specifying, self-d">
+<meta property="og:type" content="website">
+<meta property="og:title" content="PWM -- Physics World Model">
+<meta property="og:url" content="http://yoursite.com/pwm/index.html">
+<meta property="og:site_name" content="Abraham (Chengshuai) Yang">
+<meta property="og:description" content="PWM – Physics World Model for Imaging System Autonomy PWM is an open, reproducible evaluation harness and toolkit for computational imaging that aims to make any imaging system self-specifying, self-d">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://img.shields.io/badge/GitHub-Physics__World__Model-blue?logo=github">
+<meta property="article:published_time" content="2026-02-20T20:00:00.000Z">
+<meta property="article:modified_time" content="2026-02-20T19:28:56.964Z">
+<meta property="article:author" content="Abraham (Chengshuai Yang)">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img.shields.io/badge/GitHub-Physics__World__Model-blue?logo=github">
+
+<link rel="canonical" href="http://yoursite.com/pwm/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : false,
+    lang   : 'en'
+  };
+</script>
+
+  <title>PWM -- Physics World Model | Abraham (Chengshuai) Yang
+</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="Abraham (Chengshuai) Yang" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Abraham (Chengshuai) Yang</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+
+  </li>
+        <li class="menu-item menu-item-pwm">
+
+    <a href="/pwm/" rel="section"><i class="fa fa-flask fa-fw"></i>PWM</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+
+  <a href="https://github.com/integritynoble" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+  
+  
+
+          <div class="content page posts-expand">
+            
+
+    
+    
+    
+    <div class="post-block" lang="en">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">PWM -- Physics World Model
+</h1>
+
+<div class="post-meta">
+  
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <h1 id="PWM-–-Physics-World-Model-for-Imaging-System-Autonomy"><a href="#PWM-–-Physics-World-Model-for-Imaging-System-Autonomy" class="headerlink" title="PWM – Physics World Model for Imaging System Autonomy"></a>PWM – Physics World Model for Imaging System Autonomy</h1><p><a href="https://github.com/integritynoble/Physics_World_Model/tree/master" target="_blank"><img src="https://img.shields.io/badge/GitHub-Physics__World__Model-blue?logo=github" alt="GitHub Repo"></a></p>
+<p><strong>PWM</strong> is an open, reproducible evaluation harness and toolkit for computational imaging that aims to make any imaging system <strong>self-specifying</strong>, <strong>self-diagnosing</strong>, and <strong>self-correcting</strong>.</p>
+<hr>
+<h2 id="What-PWM-Does"><a href="#What-PWM-Does" class="headerlink" title="What PWM Does"></a>What PWM Does</h2><p>Given either:</p>
+<ul>
+<li>A <strong>natural-language prompt</strong> (e.g., <em>“SIM live-cell, low dose, 9 frames…”</em>)</li>
+<li>A structured <strong>ExperimentSpec</strong> (JSON&#x2F;YAML)</li>
+<li><strong>Measured data</strong> <code>y</code> + an imperfect operator <code>A</code> (operator-correction mode)</li>
+</ul>
+<p>PWM produces a fully reproducible run:</p>
+<blockquote>
+<p><strong>Prompt&#x2F;Spec &amp;rarr; OperatorGraph &amp;rarr; (Sim or Load) y &amp;rarr; (Fit operator &amp;theta;) &amp;rarr; Reconstruct x&amp;#x0302; &amp;rarr; TriadReport &amp;rarr; RunBundle</strong></p>
+</blockquote>
+<hr>
+<h2 id="Key-Features"><a href="#Key-Features" class="headerlink" title="Key Features"></a>Key Features</h2><h3 id="SolveEverything-10-Gear-Framework"><a href="#SolveEverything-10-Gear-Framework" class="headerlink" title="SolveEverything 10-Gear Framework"></a>SolveEverything 10-Gear Framework</h3><p>PWM implements all 10 gears of the SolveEverything.org abundance engine for computational imaging:</p>
+<ul>
+<li><strong>64 imaging modalities</strong> covered</li>
+<li><strong>89 graph templates</strong> for physics operator configurations</li>
+<li><strong>43+ reconstruction solvers</strong></li>
+</ul>
+<h3 id="64-Modality-Coverage"><a href="#64-Modality-Coverage" class="headerlink" title="64-Modality Coverage"></a>64-Modality Coverage</h3><p>From microscopy to medical imaging to neural rendering:</p>
+<table>
+<thead>
+<tr>
+<th>Domain</th>
+<th>Modalities</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Microscopy</strong></td>
+<td>Widefield, SIM, Confocal, Lightsheet, STED, PALM&#x2F;STORM</td>
+</tr>
+<tr>
+<td><strong>Medical Imaging</strong></td>
+<td>CT, MRI, PET, SPECT, Ultrasound, DEXA, Angiography</td>
+</tr>
+<tr>
+<td><strong>Spectral Imaging</strong></td>
+<td>CASSI, CACTI, Hyperspectral, Multispectral</td>
+</tr>
+<tr>
+<td><strong>Ultrafast Imaging</strong></td>
+<td>Compressed Ultrafast Photography (CUP), SCI Video</td>
+</tr>
+<tr>
+<td><strong>Electron Microscopy</strong></td>
+<td>TEM, SEM, EELS</td>
+</tr>
+<tr>
+<td><strong>Neural Rendering</strong></td>
+<td>NeRF, 3D Gaussian Splatting</td>
+</tr>
+</tbody></table>
+<h3 id="Physics-Fidelity-Ladder"><a href="#Physics-Fidelity-Ladder" class="headerlink" title="Physics Fidelity Ladder"></a>Physics Fidelity Ladder</h3><p>4-tier operator hierarchy:</p>
+<ul>
+<li><strong>Tier 0:</strong> Geometry (ray tracing)</li>
+<li><strong>Tier 1:</strong> Wave approximations</li>
+<li><strong>Tier 2:</strong> Full transport&#x2F;scattering</li>
+<li><strong>Tier 3:</strong> Learned surrogates</li>
+</ul>
+<h3 id="4-Scenario-Evaluation-Protocol"><a href="#4-Scenario-Evaluation-Protocol" class="headerlink" title="4-Scenario Evaluation Protocol"></a>4-Scenario Evaluation Protocol</h3><p>Tests under ideal, assumed, corrected, and oracle mask scenarios with recovery ratio metric.</p>
+<h3 id="CT-QC-Copilot"><a href="#CT-QC-Copilot" class="headerlink" title="CT QC Copilot"></a>CT QC Copilot</h3><p>Clinical medical physics module for diagnostic CT quality assurance.</p>
+<h3 id="LIP-Arena"><a href="#LIP-Arena" class="headerlink" title="LIP-Arena"></a>LIP-Arena</h3><p>Live Imaging Physics Arena – a built-in adversarial evaluation harness for benchmarking reconstruction methods.</p>
+<hr>
+<h2 id="Design-Principles"><a href="#Design-Principles" class="headerlink" title="Design Principles"></a>Design Principles</h2><ul>
+<li><strong>Public and extensible</strong> – Plugins, CasePacks, dataset adapters</li>
+<li><strong>Deterministic by default</strong> – Bounded search, reproducible seeds</li>
+<li><strong>Audit-grade</strong> – Every run produces a RunBundle with TriadReport, decision records, uncertainty estimates</li>
+<li><strong>Embeddable into agent systems</strong> – Works with AI_Scientist and other agent frameworks</li>
+</ul>
+<hr>
+<h2 id="Architecture"><a href="#Architecture" class="headerlink" title="Architecture"></a>Architecture</h2><p>PWM is built around the <strong>OperatorGraph</strong> – a directed acyclic graph of physics primitives that models the entire imaging pipeline from source to sensor. Each node can operate at different physics fidelity tiers.</p>
+<h3 id="Python-Packages"><a href="#Python-Packages" class="headerlink" title="Python Packages"></a>Python Packages</h3><ul>
+<li><strong><code>pwm_core</code></strong> – Main library with physics operators, graph IR, reconstruction solvers, calibration, clinical CT QC, viewer</li>
+<li><strong><code>pwm_AI_Scientist</code></strong> – Agent bridge for embedding PWM into AI_Scientist</li>
+</ul>
+<h3 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pip install -e packages/pwm_core</span><br><span class="line">pip install -e packages/pwm_AI_Scientist</span><br></pre></td></tr></table></figure>
+
+<h3 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">pwm run --prompt <span class="string">&quot;widefield deconvolution, low dose, PSF mismatch&quot;</span></span><br><span class="line">pwm run --prompt <span class="string">&quot;CASSI spectral imaging, 28 bands, coded aperture&quot;</span></span><br><span class="line">pwm run --prompt <span class="string">&quot;CT sparse view, 90 angles, low dose&quot;</span></span><br><span class="line">pwm view runs/latest</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="Academic-Papers"><a href="#Academic-Papers" class="headerlink" title="Academic Papers"></a>Academic Papers</h2><p>PWM includes 5 academic papers with full LaTeX sources:</p>
+<ol>
+<li><strong>PWM Flagship Paper</strong> (Nature-targeted) – <em>A Universal Physics World Model for Autonomous Diagnosis and Correction of Computational Imaging</em></li>
+<li><strong>InverseNet</strong> – Benchmarking inverse problems in computational imaging</li>
+<li><strong>PWMI-CASSI</strong> – Physics World Model for coded aperture spectral imaging</li>
+<li><strong>RAIL</strong> – Reconstruction as inference learning</li>
+<li><strong>CT QC Copilot &#x2F; CT QC Platform</strong> – Clinical CT quality control</li>
+</ol>
+<hr>
+<h2 id="Community"><a href="#Community" class="headerlink" title="Community"></a>Community</h2><ul>
+<li>4-level contribution system (solver, calibrator, modality, primitive)</li>
+<li>Weekly challenges and calibration sprints</li>
+<li>CISP (Computational Imaging Solver Protocol) challenge for 2026</li>
+<li>Reputation system and governance framework</li>
+</ul>
+<hr>
+<h2 id="Repository-Structure"><a href="#Repository-Structure" class="headerlink" title="Repository Structure"></a>Repository Structure</h2><table>
+<thead>
+<tr>
+<th>Directory</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>packages/</code></td>
+<td><code>pwm_core</code> and <code>pwm_AI_Scientist</code> Python packages</td>
+</tr>
+<tr>
+<td><code>papers/</code></td>
+<td>5 academic papers with LaTeX sources and PDFs</td>
+</tr>
+<tr>
+<td><code>datasets/</code></td>
+<td>InverseNet datasets for CACTI, CASSI, SPC</td>
+</tr>
+<tr>
+<td><code>experiments/</code></td>
+<td>InverseNet, PWM flagship, PWMI CASSI experiments</td>
+</tr>
+<tr>
+<td><code>runs/</code></td>
+<td>RunBundle artifacts across 60+ modalities</td>
+</tr>
+<tr>
+<td><code>tests/</code></td>
+<td>40+ test files covering clinical, graph, calibration, solver</td>
+</tr>
+<tr>
+<td><code>docs/</code></td>
+<td>Extensive documentation, governance, plans</td>
+</tr>
+<tr>
+<td><code>community/</code></td>
+<td>Contribution guidelines, challenges, leaderboard</td>
+</tr>
+<tr>
+<td><code>rails/</code></td>
+<td>SolveEverything.org 10-gear framework implementation</td>
+</tr>
+<tr>
+<td><code>examples/</code></td>
+<td>4-level contribution examples, spec files for 16 modalities</td>
+</tr>
+<tr>
+<td><code>results/</code></td>
+<td>Flagship ablation results, statistical tests</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h2><ul>
+<li><strong>GitHub:</strong> <a href="https://github.com/integritynoble/Physics_World_Model/tree/master" target="_blank">integritynoble&#x2F;Physics_World_Model</a></li>
+<li><strong>PlatformAI:</strong> <a href="https://www.platformai.org/" target="_blank">www.platformai.org</a></li>
+</ul>
+<hr>
+<h2 id="Download-CVs"><a href="#Download-CVs" class="headerlink" title="Download CVs"></a>Download CVs</h2><ul>
+<li><a href="/Abraham_Yang_FULL_CV_UTSW.pdf" target="_blank">Full CV (UTSW)</a></li>
+<li><a href="/CV_Yang.pdf" target="_blank">CV</a></li>
+<li><a href="/Resume_Chengshuai.pdf" target="_blank">Resume</a></li>
+</ul>
+
+      </div>
+      
+      
+      
+    </div>
+    
+
+    
+    
+    
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#PWM-%E2%80%93-Physics-World-Model-for-Imaging-System-Autonomy"><span class="nav-number">1.</span> <span class="nav-text">PWM – Physics World Model for Imaging System Autonomy</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#What-PWM-Does"><span class="nav-number">1.1.</span> <span class="nav-text">What PWM Does</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Key-Features"><span class="nav-number">1.2.</span> <span class="nav-text">Key Features</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#SolveEverything-10-Gear-Framework"><span class="nav-number">1.2.1.</span> <span class="nav-text">SolveEverything 10-Gear Framework</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#64-Modality-Coverage"><span class="nav-number">1.2.2.</span> <span class="nav-text">64-Modality Coverage</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Physics-Fidelity-Ladder"><span class="nav-number">1.2.3.</span> <span class="nav-text">Physics Fidelity Ladder</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-Scenario-Evaluation-Protocol"><span class="nav-number">1.2.4.</span> <span class="nav-text">4-Scenario Evaluation Protocol</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CT-QC-Copilot"><span class="nav-number">1.2.5.</span> <span class="nav-text">CT QC Copilot</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#LIP-Arena"><span class="nav-number">1.2.6.</span> <span class="nav-text">LIP-Arena</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Design-Principles"><span class="nav-number">1.3.</span> <span class="nav-text">Design Principles</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Architecture"><span class="nav-number">1.4.</span> <span class="nav-text">Architecture</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Python-Packages"><span class="nav-number">1.4.1.</span> <span class="nav-text">Python Packages</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Installation"><span class="nav-number">1.4.2.</span> <span class="nav-text">Installation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.4.3.</span> <span class="nav-text">Quick Start</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Academic-Papers"><span class="nav-number">1.5.</span> <span class="nav-text">Academic Papers</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Community"><span class="nav-number">1.6.</span> <span class="nav-text">Community</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Repository-Structure"><span class="nav-number">1.7.</span> <span class="nav-text">Repository Structure</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Links"><span class="nav-number">1.8.</span> <span class="nav-text">Links</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Download-CVs"><span class="nav-number">1.9.</span> <span class="nav-text">Download CVs</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Abraham (Chengshuai Yang)"
+      src="/images/me1.jpg">
+  <p class="site-author-name" itemprop="name">Abraham (Chengshuai Yang)</p>
+  <div class="site-description" itemprop="description">With malice toward none, with charity for all, with firmness in the right</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/integritynoble" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;integritynoble" rel="noopener" target="_blank"><i class="github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:integrityyang@gmail.com" title="E-Mail → mailto:integrityyang@gmail.com" rel="noopener" target="_blank"><i class="envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Abraham (Chengshuai Yang)</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+  <script defer src="/lib/three/three.min.js"></script>
+    <script defer src="/lib/three/three-waves.min.js"></script>
+    <script defer src="/lib/three/canvas_sphere.min.js"></script>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  <!-- 页面点击小红心 -->
+  <script type="text/javascript" src="/js/love.js"></script>
+</body>
+</html>
