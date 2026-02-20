@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2019/10/23/Scientific-Research/</loc>
+    <loc>https://abraham.platformai.org/2019/10/23/Scientific-Research/</loc>
     
     <lastmod>2026-02-20</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/about/index.html</loc>
+    <loc>https://abraham.platformai.org/about/index.html</loc>
     
     <lastmod>2026-02-20</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/pwm/index.html</loc>
+    <loc>https://abraham.platformai.org/pwm/index.html</loc>
     
     <lastmod>2026-02-20</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2021/10/26/Prayer/</loc>
+    <loc>https://abraham.platformai.org/2021/10/26/Prayer/</loc>
     
     <lastmod>2022-06-21</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2020/06/26/Romans/</loc>
+    <loc>https://abraham.platformai.org/2020/06/26/Romans/</loc>
     
     <lastmod>2020-06-30</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2020/06/26/Positive-thoughts/</loc>
+    <loc>https://abraham.platformai.org/2020/06/26/Positive-thoughts/</loc>
     
     <lastmod>2020-06-30</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/posts/index.html</loc>
+    <loc>https://abraham.platformai.org/posts/index.html</loc>
     
     <lastmod>2020-06-30</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/10/26/Pearls-of-Wisdom/</loc>
+    <loc>https://abraham.platformai.org/2019/10/26/Pearls-of-Wisdom/</loc>
     
     <lastmod>2020-06-19</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/index.html</loc>
+    <loc>https://abraham.platformai.org/tags/index.html</loc>
     
     <lastmod>2020-06-19</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/book/index.html</loc>
+    <loc>https://abraham.platformai.org/book/index.html</loc>
     
     <lastmod>2020-06-19</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
+    <loc>https://abraham.platformai.org/categories/index.html</loc>
     
     <lastmod>2020-06-19</lastmod>
     
@@ -102,7 +102,7 @@
   
 
   <url>
-    <loc>http://yoursite.com/</loc>
+    <loc>https://abraham.platformai.org/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -110,35 +110,35 @@
 
   
   <url>
-    <loc>http://yoursite.com/tags/Positive-Thoughts/</loc>
+    <loc>https://abraham.platformai.org/tags/Positive-Thoughts/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/Pearls-of-Wisdom/</loc>
+    <loc>https://abraham.platformai.org/tags/Father-s-Prayer/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/Academic-Research/</loc>
+    <loc>https://abraham.platformai.org/tags/Pearls-of-Wisdom/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/Father-s-Prayer/</loc>
+    <loc>https://abraham.platformai.org/tags/Life-Through-the-Spirit/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/Life-Through-the-Spirit/</loc>
+    <loc>https://abraham.platformai.org/tags/Academic-Research/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -147,35 +147,35 @@
 
   
   <url>
-    <loc>http://yoursite.com/categories/Positive-Thoughts/</loc>
+    <loc>https://abraham.platformai.org/categories/Positive-Thoughts/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/Pearls-of-Wisdom/</loc>
+    <loc>https://abraham.platformai.org/categories/Father-s-Prayer/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/Academic-Research/</loc>
+    <loc>https://abraham.platformai.org/categories/Pearls-of-Wisdom/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/Father-s-Prayer/</loc>
+    <loc>https://abraham.platformai.org/categories/Life-Through-the-Spirit/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/Life-Through-the-Spirit/</loc>
+    <loc>https://abraham.platformai.org/categories/Academic-Research/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
