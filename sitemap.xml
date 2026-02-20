@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
+    <loc>http://yoursite.com/book/index.html</loc>
     
     <lastmod>2020-06-19</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/book/index.html</loc>
+    <loc>http://yoursite.com/categories/index.html</loc>
     
     <lastmod>2020-06-19</lastmod>
     
@@ -124,7 +124,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/Life-Through-the-Spirit/</loc>
+    <loc>http://yoursite.com/tags/Academic-Research/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -138,7 +138,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/Academic-Research/</loc>
+    <loc>http://yoursite.com/tags/Life-Through-the-Spirit/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -161,7 +161,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/Life-Through-the-Spirit/</loc>
+    <loc>http://yoursite.com/categories/Academic-Research/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -175,7 +175,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/Academic-Research/</loc>
+    <loc>http://yoursite.com/categories/Life-Through-the-Spirit/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
